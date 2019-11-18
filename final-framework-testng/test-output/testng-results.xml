@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50798" started-at="2019-11-13T18:50:42Z" finished-at="2019-11-13T18:51:33Z">
+  <suite name="Default suite" duration-ms="155980" started-at="2019-11-18T15:43:20Z" finished-at="2019-11-18T15:45:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50798" started-at="2019-11-13T18:50:42Z" finished-at="2019-11-13T18:51:33Z">
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@d56d67]" name="setUp" is-config="true" duration-ms="15342" started-at="2019-11-14T00:20:42Z" finished-at="2019-11-14T00:20:58Z">
+    <test name="Default test" duration-ms="155980" started-at="2019-11-18T15:43:20Z" finished-at="2019-11-18T15:45:56Z">
+      <class name="com.training.sanity.tests.MyCourseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="setUp" is-config="true" duration-ms="15034" started-at="2019-11-18T21:13:20Z" finished-at="2019-11-18T21:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.sanity.tests.LoginTests@d56d67]" name="validLoginTest" duration-ms="3953" started-at="2019-11-14T00:20:58Z" finished-at="2019-11-14T00:21:02Z">
+        <test-method status="PASS" signature="myCoursesTabTest()[pri:1, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="myCoursesTabTest" duration-ms="21263" started-at="2019-11-18T21:13:35Z" finished-at="2019-11-18T21:13:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="create_a_course()[pri:2, instance:com.training.sanity.tests.LoginTests@d56d67]" name="create_a_course" duration-ms="20907" started-at="2019-11-14T00:21:02Z" depends-on-methods="com.training.sanity.tests.LoginTests.validLoginTest" finished-at="2019-11-14T00:21:23Z">
+        </test-method> <!-- myCoursesTabTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="tearDown" is-config="true" duration-ms="1842" started-at="2019-11-18T21:13:56Z" finished-at="2019-11-18T21:13:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create_a_course -->
-        <test-method status="PASS" signature="enter_course_desription()[pri:3, instance:com.training.sanity.tests.LoginTests@d56d67]" name="enter_course_desription" duration-ms="5590" started-at="2019-11-14T00:21:23Z" depends-on-methods="com.training.sanity.tests.LoginTests.create_a_course" finished-at="2019-11-14T00:21:28Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="setUp" is-config="true" duration-ms="15060" started-at="2019-11-18T21:13:58Z" finished-at="2019-11-18T21:14:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enter_course_desription -->
-        <test-method status="PASS" signature="unsubscribe_registered_user()[pri:4, instance:com.training.sanity.tests.LoginTests@d56d67]" name="unsubscribe_registered_user" duration-ms="4976" started-at="2019-11-14T00:21:28Z" depends-on-methods="com.training.sanity.tests.LoginTests.enter_course_desription" finished-at="2019-11-14T00:21:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="reportingTest()[pri:2, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="reportingTest" duration-ms="44230" started-at="2019-11-18T21:14:13Z" finished-at="2019-11-18T21:14:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- unsubscribe_registered_user -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
+        </test-method> <!-- reportingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="tearDown" is-config="true" duration-ms="1787" started-at="2019-11-18T21:14:57Z" finished-at="2019-11-18T21:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="setUp" is-config="true" duration-ms="13980" started-at="2019-11-18T21:14:59Z" finished-at="2019-11-18T21:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="generateReportTest()[pri:3, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="generateReportTest" duration-ms="40942" started-at="2019-11-18T21:15:13Z" finished-at="2019-11-18T21:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReportTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyCourseTest@d25987]" name="tearDown" is-config="true" duration-ms="1797" started-at="2019-11-18T21:15:54Z" finished-at="2019-11-18T21:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.MyCourseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

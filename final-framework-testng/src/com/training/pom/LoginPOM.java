@@ -164,6 +164,12 @@ public class LoginPOM {
 	public void clickHomePageBtn() {
 		this.homePageBtn.click();
 	}
+	
+	public  void loginToApplication(String userName, String password){
+		sendUserName(userName);
+		sendPassword(password);
+		clickLoginBtn();
+	}
 
 	public void validateIfHomePageIsActive() throws InterruptedException {
 		Thread.sleep(2000);
@@ -307,6 +313,8 @@ public class LoginPOM {
 		alert.accept();
 		
 	}
+	
+	
 	public void validateUnsubscribedMessgage(){
 		System.out.println(this.UnsubscribedMessage.getText());
 	}

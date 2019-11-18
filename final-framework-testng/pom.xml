@@ -28,7 +28,7 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>3.9</version>
-			
+
 		</dependency>
 
 		<dependency>
@@ -48,7 +48,14 @@
 			<artifactId>jxl</artifactId>
 			<version>2.4.2</version>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>extLib.reporting</groupId>
+			<artifactId>atureport</artifactId>
+			<version>5.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/extLib/ATUReporter.jar</systemPath>
+		</dependency>
 
 	</dependencies>
 
